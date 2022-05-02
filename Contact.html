@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="/CSS/Contact.css">
+        <script src="https://kit.fontawesome.com/ea44a53c7a.js" crossorigin="anonymous"></script>
+    </head>
+
+
+    <body>
+
+
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+          <div></div></div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="index.html">Carlos Carrillo</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div>
+            
+        </div>
+
+
+<div id="overlay">
+    <form onsubmit="event.preventDefault(); validateForm()">
+        <h1>Contact Me</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name">
+        <small class="error"></small>
+
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Your email">
+        <small class="error"></small>
+
+
+        <label for="Message">Message:</label>
+        <textarea id="message" placeholder="Your message" rows="6"></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+            <input type="submit" value="Send Message">
+            <p id="success"></p>
+        </div>
+
+
+
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="/javascript/contact.js"></script>
+
+    </body>
+</html>
