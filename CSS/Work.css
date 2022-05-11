@@ -27,7 +27,7 @@
     height: 40vh;
     text-transform: uppercase;
     color: #0d143d;
-    -webkit-text-stroke: 0.01em rgb(255, 114, 114);
+    -webkit-text-stroke: 0.01em #ff6464;
     position: center;
     letter-spacing: 0.2em;
   
@@ -60,10 +60,10 @@
     height: 40vh;
     text-transform: uppercase;
     color: #0d143d;
-    -webkit-text-stroke: 0.01em rgb(255, 114, 114);
+    -webkit-text-stroke: 0.01em #ff6464;
     position: center;
     letter-spacing: 0.2em;
-border-bottom: solid black 5px;
+border-bottom: solid #0d143d 5px;
 
 
 
@@ -118,7 +118,7 @@ border-bottom: solid black 5px;
     flex: none;
     width: 100%;
     height: 2px;
-    background: rgb(255, 0, 0);
+    background: #ff6464;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,10 +203,10 @@ border-bottom: solid black 5px;
   
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: rgb(0, 0, 0);
-    background-color: #F2385A;
+    color: #0d143d;
+    background-color: #ff6464;
     border-radius: 40px;
-    border: #000 solid 1px;
+    border: #0d143d solid 1px;
     font-size: 1.5rem;
     padding: 0.75rem;
     text-decoration: none;
@@ -259,7 +259,7 @@ border-bottom: solid black 5px;
     margin-bottom: 2vh;
     width: 20%;
     margin-left: 4%;
-    box-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #0d143d;
     border: solid #F2385A;
     
   }
@@ -299,7 +299,7 @@ border-bottom: solid black 5px;
     .box:hover{
       transform: scale(1.3);
       background:#e9e9f7;
-      box-shadow: 2px 2px 2px 2px #000;
+      box-shadow: 2px 2px 2px 2px #0d143d;
       z-index: 2;
     }
 
@@ -309,7 +309,7 @@ border-bottom: solid black 5px;
     .box a{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #e9e9f7;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px #0d143d;
     }
     .contenedor{
       display: flex;
