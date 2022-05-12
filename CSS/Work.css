@@ -255,12 +255,12 @@ border-bottom: solid #0d143d 5px;
     transition: 0.75s;
     margin-top: 20px;
     height: 500px;
-    background-color: #F2385A;
+    background-color: #ff6464;
     margin-bottom: 2vh;
     width: 20%;
     margin-left: 4%;
     box-shadow: 2px 2px 2px #0d143d;
-    border: solid #F2385A;
+    border: solid #ff6464;
     
   }
   
@@ -323,7 +323,7 @@ border-bottom: solid #0d143d 5px;
       width: 100px;
       height: 25px;
       border: none;
-      color: #F2385A;
+      color: #ff6464;
       background-color: #e9e9f7 ;
       border-radius: 4px;
       transition: ease-out 0.3s;
@@ -334,7 +334,7 @@ border-bottom: solid #0d143d 5px;
     .btn-1:hover{
       box-shadow: inset 100px 0 0 0 #0d143d;
       cursor: pointer;
-      color:#F2385A;
+      color:#ff6464;
     }
 
 
@@ -421,7 +421,7 @@ border-bottom: solid #0d143d 5px;
       bottom: 0;
       width: 0;
       height: 2px;
-      background-color: #F2385A;
+      background-color: #ff6464;
       transition: width 0.25s ease-out;
     }
     
