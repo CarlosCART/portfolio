@@ -10,11 +10,14 @@ body {
 #overlay {
     width: 100%;
     height: 100%;
-    position: fixed;
 }
 
 
 form {
+  border-top: 5px solid #0d143d;
+  border-bottom: 5px solid #0d143d;
+  border-left: 5px solid #0d143d;
+  border-right: 5px solid #0d143d;
     max-width: 550px;
     width: 90%;
     background: white;
@@ -70,6 +73,10 @@ input[type="submit"] {
     font-size: 17px;
     cursor: pointer;
     border-radius: 3px;
+    border-top: 3px solid #0d143d;
+    border-bottom: 3px solid #0d143d;
+    border-left: 3px solid #0d143d;
+    border-right: 3px solid #0d143d;
 }
 
 .error {
@@ -232,3 +239,107 @@ input[type="submit"] {
     text-decoration: none;
     transition: color 0.4s ease;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Footer*/
+    .footer {
+      border-top: 5px #0d143d solid;
+      margin-top: 10em;
+      width: 100%;
+      height: auto;
+    
+      color: #0D143D;
+      background-image: url("/images/interlaced.png.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .footertext {
+      display: flex;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      font-size: 10px;
+      list-style: none;
+      color: #0D143D;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+      padding-bottom: 15px;
+      padding-top: 10px;
+    }
+    
+    .footerlogos {
+      display: flex;
+      margin: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 70%;
+    }
+    
+    .miniLogos {
+      padding: 5px;
+      height: 100%;
+      width: 75px;
+    }
+    
+    .footerCredits {
+      font-size: 15px;
+      padding-bottom: 10px;
+      text-align: center;
+      background-image: url("/images/interlaced.png.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    a.footer-link {
+      text-decoration: none;
+      color: #0D143D;
+    }
+    
+    .footer-link {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    
+      font-size: 15px; 
+      
+      position: relative;
+    }
+    
+    .footer-link::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #F2385A;
+      transition: width 0.25s ease-out;
+    }
+    
+    .footer-link:hover::before {
+      width: 100%;
+    }

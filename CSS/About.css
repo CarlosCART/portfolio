@@ -55,10 +55,10 @@
     width: auto;
     padding-top: 1vh;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
 
     width: 80%;
-    height: 60vh;
+    height: auto;
     color: #0d143d;
     -webkit-text-stroke: 0.01em rgb(255, 114, 114);
     position: center;
@@ -70,13 +70,13 @@
 
 
   .box-image{
+    margin-top: 80px;
     background-color: #e9e9f7;
     margin-left: 40.5%;
     width: 19%;
     display: block;
-    height: 40em;
+    height: 35em;
     background-size: contain;
-    margin-bottom: 5em;
   
     
     
@@ -96,10 +96,10 @@
   width: auto;
   padding-top: 1vh;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 
   width: 80%;
-  height: 95vh;
+  height: auto;
   color: #0d143d;
   -webkit-text-stroke: 0.01em rgb(255, 114, 114);
   position: center;
@@ -289,6 +289,80 @@
 
 
 
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .slideshowImage {
+    margin-top: 20px;
+    width:100%;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    background-color: black;
+    width: 30%;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
 
 
 
@@ -298,9 +372,20 @@
 
 
 
+  .aboutResumeButton {  
+    color: #222126;
+    padding: 0.75em;
+    background: #F0F0F2;
+    border: 2px solid #222126;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 46%;
+  }
 
 
-
+  .resumeButtonLayer{
+    margin-top: 2em;
+  }
 
 
 
@@ -319,6 +404,7 @@
 
    /*Footer*/
    .footer {
+     margin-top: 5em;
     width: 100%;
     height: auto;
   
